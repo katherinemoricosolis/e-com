@@ -1,0 +1,21 @@
+div .Picture, img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+
+  }
+.img-fluid{
+    width: 80%;
+}
+@media only screen and (min-width: 500px) {
+    .Picture img{
+        display: hidden;
+    }
+    .createaccount{
+        margin-top: 1rem;
+    }
+}
+input[type="radio"] {
+    transform: scale(.7);
+}

@@ -1,0 +1,31 @@
+div .Picture, img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+}
+
+.img-fluid {
+  width: 80%;
+}
+
+@media only screen and (min-width: 500px) {
+  .Picture img {
+    display: hidden;
+  }
+  .createaccount {
+    margin-top: 1rem;
+  }
+}
+
+input[type="radio"] {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+/*# sourceMappingURL=CreateAccount.css.map */

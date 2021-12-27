@@ -1,0 +1,12 @@
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+#product-container .carousel-item {
+	min-height: 200px;
+	max-height: 550px;
+}
+a{
+	text-decoration-line: none;
+	color: black;
+}

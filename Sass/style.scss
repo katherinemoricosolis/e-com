@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito+Sans:wght@200&display=swap');
+
+@import "./variable.scss";
+@import "./global.scss";
+@import "./header.scss";
+@import "./color.scss";
+@import "./typograpgy.scss";
+@import "./collection&cs.scss";
+@import "./product.scss";
+@import "./SignIn.scss";
+@import "./CreateAccount.scss";
+@import "./footer.scss";
+@import "./cart.scss";
+@import "./cart1.scss";
+//@import "./productpage.scss";
+@import "./ProductPage1.scss";
+@import "./MyAccount.scss";
+@import "./dashboard.scss";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding:0;
+    box-sizing: inherit;
+}

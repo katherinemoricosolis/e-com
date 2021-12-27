@@ -1,0 +1,29 @@
+.collection a {
+  text-decoration: none;
+  color: black;
+}
+
+.cls-cs img {
+  height: 19vh;
+  width: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cls-cs p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.owl-two {
+  outline: 0;
+}
+/*# sourceMappingURL=collection&cs.css.map */

@@ -1,0 +1,17 @@
+.carousel-control-next,
+.carousel-control-prev {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+#product-container .carousel-item {
+  min-height: 200px;
+  max-height: 550px;
+}
+
+a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+}
+/*# sourceMappingURL=product.css.map */
